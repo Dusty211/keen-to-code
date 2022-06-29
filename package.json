@@ -1,0 +1,20 @@
+{
+  "name": "keen-to-code",
+  "version": "1.0.0",
+  "description": "A personal brand.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "./npm_install.sh",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "personal web page"
+  ],
+  "author": "Kyle Houghton",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}
